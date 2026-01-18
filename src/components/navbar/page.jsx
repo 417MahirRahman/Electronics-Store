@@ -1,9 +1,11 @@
-import { ShoppingCart } from 'lucide-react';
+import Link from "next/link";
+
 
 export default function Navbar() {
+
   return (
-    <div>
-      <header className="bg-white shadow-sm sticky top-0 z-50">
+    <div className="sticky top-0 z-50">
+      <header className="bg-white shadow-sm">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center space-x-2">
@@ -16,39 +18,31 @@ export default function Navbar() {
             </div>
 
             <nav className="hidden md:flex space-x-8">
-              <a
-                href="#"
+              <Link
+                href="/"
                 className="text-gray-700 hover:text-blue-600 font-medium transition-colors"
               >
                 Home
-              </a>
-              <a
-                href="#"
+              </Link>
+              <Link
+                href="/product"
                 className="text-gray-700 hover:text-blue-600 font-medium transition-colors"
               >
                 Products
-              </a>
-              <a
-                href="#"
+              </Link>
+              <Link
+                href="/bestDeals"
                 className="text-gray-700 hover:text-blue-600 font-medium transition-colors"
               >
-                Categories
-              </a>
-              <a
-                href="#"
-                className="text-gray-700 hover:text-blue-600 font-medium transition-colors"
-              >
-                About
-              </a>
+                Best Deals
+              </Link>
+              
             </nav>
 
             <div className="flex items-center space-x-4">
-              <button className="p-2 text-gray-600 hover:text-blue-600 transition-colors">
-                <ShoppingCart className="w-6 h-6" />
-              </button>
-              <button className="bg-linear-to-r from-blue-600 to-purple-600 text-white px-4 py-2 rounded-lg font-medium hover:shadow-lg transition-all duration-300 transform hover:-translate-y-0.5">
-                Sign In
-              </button>
+              <Link href="/login" className="bg-linear-to-r from-blue-600 to-purple-600 text-white px-4 py-2 rounded-lg font-medium hover:shadow-lg transition-all duration-300 transform hover:-translate-y-0.5">
+                Login
+              </Link>
             </div>
           </div>
         </div>
