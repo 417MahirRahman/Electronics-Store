@@ -3,7 +3,7 @@ import Link from "next/link";
 
 async function getProducts() {
   const res = await fetch("http://localhost:3000/products.json", {
-    cache: "no-store", // dev-safe
+    cache: "no-store"
   });
 
   return res.json();
@@ -13,8 +13,8 @@ export default async function ProductsPage() {
   const products = await getProducts();
 
   return (
-    <div className="max-w-7xl mx-auto px-4 py-10">
-      <h1 className="text-4xl font-bold text-gray-900 text-center my-10">All Products</h1>
+    <div className="max-w-7xl mx-auto px-4 py-10 my-10">
+      <h1 className="text-4xl font-bold text-gray-900 text-center mb-10">All Products</h1>
 
        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
           {products.map((product) => (
@@ -38,18 +38,13 @@ export default async function ProductsPage() {
                 <h2 className="font-semibold text-lg text-gray-900 mb-2 line-clamp-2 min-h-12">
                   {product.name}
                 </h2>
-                
-                {/* Description */}
-                <p className="text-gray-600 text-sm line-clamp-3 mb-4 grow">
-                  {product.description.split('\n').join(' ')}
-                </p>
 
                 {/* Price and Actions */}
                 <div className="flex justify-between items-center mt-auto">
-                  <span className="font-bold text-xl text-gray-900">${product.price}</span>
+                  <span className="font-bold text-xl text-gray-900">Price: ${product.price}</span>
                   
                   <div className="flex space-x-2">
-                    <Link href={`/product/:${product.id}`} className="text-blue-600 hover:text-blue-800 font-medium text-sm transition-colors">
+                    <Link href={`/product/${product.id}`} className="bg-linear-to-r from-blue-600 to-purple-600 text-white py-2 px-4 rounded-xl font-semibold hover:shadow-lg transition-all duration-300 flex items-center justify-center gap-2 w-full sm:w-auto">
                       View Details
                     </Link>
                   </div>
