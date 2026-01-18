@@ -1,0 +1,122 @@
+[
+  {
+    "id": "1",
+    "name": "Wireless Noise Cancelling Headphones",
+    "category": "Audio",
+    "price": 129.99,
+    "image": "https://i.ibb.co/6y5Zk9h/headphones.jpg",
+    "description": "Experience immersive sound with advanced noise cancellation technology.\nDesigned for long listening sessions with soft ear cushions and adjustable fit.\nDelivers deep bass, clear vocals, and balanced audio performance.\nIdeal for travel, work, and daily music enjoyment."
+  },
+  {
+    "id": "2",
+    "name": "Bluetooth Portable Speaker",
+    "category": "Audio",
+    "price": 59.99,
+    "image": "https://i.ibb.co/zfJvZ9Z/speaker.jpg",
+    "description": "Compact speaker with powerful sound output and deep bass response.\nWireless Bluetooth connectivity ensures quick and stable pairing.\nBuilt with durable materials for both indoor and outdoor use.\nPerfect for parties, trips, and casual listening."
+  },
+  {
+    "id": "3",
+    "name": "Smartphone Pro Max 5G",
+    "category": "Mobile",
+    "price": 799.99,
+    "image": "https://i.ibb.co/Yh2z1z4/smartphone.jpg",
+    "description": "High-performance smartphone with a stunning edge-to-edge display.\nPowered by a fast processor for smooth multitasking and gaming.\nAdvanced camera system captures sharp photos and videos.\nSupports 5G connectivity for ultra-fast internet speeds."
+  },
+  {
+    "id": "4",
+    "name": "Smart Fitness Watch",
+    "category": "Wearable",
+    "price": 149.99,
+    "image": "https://i.ibb.co/0Jr3M6H/smartwatch.jpg",
+    "description": "Track your daily activity, heart rate, and sleep patterns accurately.\nFeatures a bright display with customizable watch faces.\nWater-resistant design suitable for workouts and outdoor activities.\nSeamlessly syncs with your smartphone for notifications."
+  },
+  {
+    "id": "5",
+    "name": "Wireless Earbuds with Charging Case",
+    "category": "Audio",
+    "price": 89.99,
+    "image": "https://i.ibb.co/4RZ7G5k/earbuds.jpg",
+    "description": "Lightweight earbuds offering clear sound and strong bass.\nComes with a compact charging case for extended battery life.\nProvides stable wireless connectivity with low latency.\nPerfect for calls, workouts, and everyday use."
+  },
+  {
+    "id": "6",
+    "name": "Gaming Mechanical Keyboard",
+    "category": "Accessories",
+    "price": 99.99,
+    "image": "https://i.ibb.co/8B0b9ZB/keyboard.jpg",
+    "description": "Mechanical keyboard designed for fast and accurate key response.\nFeatures customizable RGB lighting for a stylish gaming setup.\nDurable keys ensure long-lasting performance.\nIdeal for gaming, coding, and productivity tasks."
+  },
+  {
+    "id": "7",
+    "name": "Wireless Gaming Mouse",
+    "category": "Accessories",
+    "price": 49.99,
+    "image": "https://i.ibb.co/mH7T6Sz/mouse.jpg",
+    "description": "Ergonomic mouse built for precision and comfort.\nHigh-accuracy sensor delivers smooth and responsive movement.\nWireless design reduces cable clutter on your desk.\nPerfect for gaming and everyday computer use."
+  },
+  {
+    "id": "8",
+    "name": "Laptop Pro 15-inch",
+    "category": "Laptop",
+    "price": 1199.99,
+    "image": "https://i.ibb.co/6y8Cq8n/laptop.jpg",
+    "description": "Powerful laptop with a large, high-resolution display.\nHandles multitasking, development, and creative work efficiently.\nSlim and lightweight design for easy portability.\nReliable battery life for long working hours."
+  },
+  {
+    "id": "9",
+    "name": "4K Ultra HD Smart TV",
+    "category": "TV",
+    "price": 699.99,
+    "image": "https://i.ibb.co/Gn9bN8F/tv.jpg",
+    "description": "Enjoy stunning visuals with 4K Ultra HD resolution.\nSmart TV features provide access to popular streaming apps.\nDelivers vibrant colors and sharp image quality.\nIdeal for movies, sports, and gaming."
+  },
+  {
+    "id": "10",
+    "name": "Tablet Plus 10.5-inch",
+    "category": "Tablet",
+    "price": 349.99,
+    "image": "https://i.ibb.co/VLqZkSn/tablet.jpg",
+    "description": "Versatile tablet with a large and responsive touch display.\nSuitable for browsing, entertainment, and light productivity.\nSlim design makes it easy to carry anywhere.\nLong-lasting battery supports extended usage."
+  },
+  {
+    "id": "11",
+    "name": "USB-C Fast Charging Power Bank",
+    "category": "Accessories",
+    "price": 39.99,
+    "image": "https://i.ibb.co/4f0G2j3/powerbank.jpg",
+    "description": "High-capacity power bank for charging devices on the go.\nSupports fast charging through USB-C output.\nCompact and lightweight for easy portability.\nIdeal for travel and daily backup power."
+  },
+  {
+    "id": "12",
+    "name": "1080p HD Webcam",
+    "category": "Accessories",
+    "price": 69.99,
+    "image": "https://i.ibb.co/pX1wqZ6/webcam.jpg",
+    "description": "Delivers clear and sharp video quality for online meetings.\nBuilt-in microphone ensures clear voice capture.\nEasy plug-and-play setup with most devices.\nPerfect for streaming, video calls, and remote work."
+  },
+  {
+    "id": "13",
+    "name": "Smart Home Security Camera",
+    "category": "Smart Home",
+    "price": 89.99,
+    "image": "https://i.ibb.co/0VQ7FKn/securitycam.jpg",
+    "description": "Monitor your home with real-time video streaming.\nFeatures motion detection and night vision support.\nEasy installation with mobile app integration.\nProvides peace of mind with reliable security monitoring."
+  },
+  {
+    "id": "14",
+    "name": "Wireless Charging Pad",
+    "category": "Accessories",
+    "price": 29.99,
+    "image": "https://i.ibb.co/8xY9M9k/charger.jpg",
+    "description": "Convenient wireless charging for compatible devices.\nSlim and modern design fits any desk or table.\nEnsures safe and efficient power delivery.\nEliminates the need for messy cables."
+  },
+  {
+    "id": "15",
+    "name": "Smart Wi-Fi Router",
+    "category": "Networking",
+    "price": 129.99,
+    "image": "https://i.ibb.co/0G0R7Fs/router.jpg",
+    "description": "High-speed router designed for stable internet connectivity.\nSupports multiple devices without performance drops.\nAdvanced security features protect your network.\nIdeal for home and small office use."
+  }
+]
