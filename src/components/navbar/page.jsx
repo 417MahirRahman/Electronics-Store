@@ -2,7 +2,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
-export default function Navbar({ isLoggedIn }) {
+export default function Navbar() {
   const pathname = usePathname();
 
   const isActive = (path) => {
@@ -59,7 +59,7 @@ export default function Navbar({ isLoggedIn }) {
                 href="/login" 
                 className="bg-linear-to-r from-blue-600 to-purple-600 text-white px-4 py-2 rounded-lg font-medium hover:shadow-lg transition-all duration-300 transform hover:-translate-y-0.5"
               >
-                {isLoggedIn ? "" : "Login"}
+                Login
               </Link>
             </div>
           </div>
