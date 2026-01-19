@@ -1,5 +1,3 @@
-'use client'
-
 import {
   Headphones,
   Smartphone,
@@ -64,7 +62,7 @@ export default function Categories() {
   ];
 
   return (
-    <section className="py-16 bg-white">
+    <section className="py-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">
@@ -91,12 +89,6 @@ export default function Categories() {
               </div>
             );
           })}
-        </div>
-
-        <div className="text-center mt-12">
-          <button className="inline-flex items-center space-x-2 bg-white border-2 border-gray-300 text-gray-700 px-6 py-3 rounded-xl font-semibold hover:border-blue-600 hover:text-blue-600 transition-all hover:shadow-md">
-            <span>View All Categories</span>
-          </button>
         </div>
       </div>
     </section>

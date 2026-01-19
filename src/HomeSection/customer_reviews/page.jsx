@@ -1,4 +1,3 @@
-"ues client";
 import { Star, Quote } from "lucide-react";
 import Image from "next/image";
 
@@ -9,7 +8,7 @@ export default function Customer_Reviews() {
       name: "Sarah Johnson",
       role: "Software Developer",
       rating: 5,
-      image: "https://placehold.co/80x80/667eea/ffffff?text=SJ",
+      image: "/girl_1.jpg",
       review:
         "TechNest exceeded my expectations! The laptop I ordered arrived faster than expected and the quality is outstanding. Their customer service team was incredibly helpful when I had questions about setup.",
       date: "2 weeks ago",
@@ -19,7 +18,7 @@ export default function Customer_Reviews() {
       name: "Michael Chen",
       role: "Graphic Designer",
       rating: 5,
-      image: "https://placehold.co/80x80/f093fb/ffffff?text=MC",
+      image: "/boy_1.jpg",
       review:
         "I've been shopping with TechNest for over a year now. Their product selection is fantastic and prices are always competitive. The wireless earbuds I bought last month have amazing sound quality!",
       date: "1 month ago",
@@ -29,7 +28,7 @@ export default function Customer_Reviews() {
       name: "Emma Rodriguez",
       role: "Student",
       rating: 4,
-      image: "https://placehold.co/80x80/4ade80/ffffff?text=ER",
+      image: "/girl_2.jpg",
       review:
         "As a student on a budget, TechNest's deals section saved me so much money on my new tablet. The ordering process was smooth and delivery was right on time. Highly recommend!",
       date: "3 weeks ago",
@@ -39,14 +38,14 @@ export default function Customer_Reviews() {
       name: "David Kim",
       role: "Business Owner",
       rating: 5,
-      image: "https://placehold.co/80x80/fb7185/ffffff?text=DK",
+      image: "/boy_2.jpg",
       review:
         "Purchased multiple networking devices for my office and couldn't be happier. Everything works perfectly together and the technical support was excellent. TechNest is now my go-to for all tech needs.",
       date: "5 days ago",
     },
   ];
   return (
-    <section className="py-20 bg-linear-to-br from-slate-50 to-blue-50">
+    <section className="py-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <div className="flex items-center justify-center space-x-3 mb-4">
@@ -65,7 +64,7 @@ export default function Customer_Reviews() {
           {reviews.map((review) => (
             <div
               key={review.id}
-              className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2"
+              className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 flex flex-col h-full"
             >
               {/* Quote Icon */}
               <div className="text-orange-400 mb-4">
@@ -73,7 +72,7 @@ export default function Customer_Reviews() {
               </div>
 
               {/* Rating */}
-              <div className="flex items-center mb-4">
+              <div className="flex items-center mb-4 h-6">
                 {[...Array(5)].map((_, i) => (
                   <Star
                     key={i}
@@ -82,24 +81,25 @@ export default function Customer_Reviews() {
                 ))}
               </div>
 
-              {/* Review Text */}
-              <p className="text-gray-700 mb-6 leading-relaxed italic">
+              <p className="text-gray-700 mb-6 leading-relaxed italic grow min-h-24 line-clamp-4">
                 {review.review}
               </p>
 
-              {/* Customer Info */}
-              <div className="flex items-center space-x-4">
-                <Image
-                  src="/products/headphones.jpg"
-                  alt={review.name}
-                  width={48}
-                  height={48}
-                  className="rounded-full object-cover"
-                />
-                <div>
-                  <h4 className="font-bold text-gray-900">{review.name}</h4>
-                  <p className="text-sm text-gray-600">{review.role}</p>
-                  <p className="text-xs text-gray-500 mt-1">{review.date}</p>
+              <div className="mt-auto pt-4 border-t border-gray-100">
+                {/* Customer Info */}
+                <div className="flex items-center space-x-4">
+                  <Image
+                    src={review.image}
+                    alt={review.name}
+                    width={48}
+                    height={48}
+                    className="rounded-full object-fit shrink-0"
+                  />
+                  <div className="min-w-0">
+                    <h4 className="font-bold text-gray-900 truncate">{review.name}</h4>
+                    <p className="text-sm text-gray-600 truncate">{review.role}</p>
+                    <p className="text-xs text-gray-500 mt-1">{review.date}</p>
+                  </div>
                 </div>
               </div>
             </div>

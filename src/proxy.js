@@ -15,5 +15,5 @@ export function proxy(request) {
 // export default function proxy(request) { ... }
 // '/:path*'
 export const config = {
-    matcher:["/"],
+    matcher:["/bestDeals"],
 }

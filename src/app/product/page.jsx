@@ -16,7 +16,7 @@ export default async function ProductsPage() {
     <div className="max-w-7xl mx-auto px-4 py-10 my-10">
       <h1 className="text-4xl font-bold text-gray-900 text-center mb-10">All Products</h1>
 
-       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
           {products.map((product) => (
             <div
               key={product.id}
@@ -41,10 +41,10 @@ export default async function ProductsPage() {
 
                 {/* Price and Actions */}
                 <div className="flex justify-between items-center mt-auto">
-                  <span className="font-bold text-xl text-gray-900">Price: ${product.price}</span>
+                  <span className="font-bold text-xl text-gray-900">Price:${product.price}</span>
                   
                   <div className="flex space-x-2">
-                    <Link href={`/product/${product.id}`} className="bg-linear-to-r from-blue-600 to-purple-600 text-white py-2 px-4 rounded-xl font-semibold hover:shadow-lg transition-all duration-300 flex items-center justify-center gap-2 w-full sm:w-auto">
+                    <Link href={`/product/${product.id}`} className="bg-linear-to-r from-blue-600 to-purple-600 text-white py-2 px-2 rounded-xl font-semibold hover:shadow-lg transition-all duration-300 flex items-center justify-center gap-2 w-full sm:w-auto">
                       View Details
                     </Link>
                   </div>
