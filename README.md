@@ -19,8 +19,6 @@ The user interface is styled with Tailwind CSS and DaisyUI, enabling rapid UI de
 - Email: `admin123@gmail.com`  
 - Password: `123456`
 
-> Note: Authentication is mocked using cookies for learning purposes.
-
 ---
 
 # ✨ Main Features
@@ -49,8 +47,7 @@ Built with Tailwind CSS and DaisyUI to deliver a clean, responsive, and consiste
 ![React](https://img.shields.io/badge/React-18-blue)
 ![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-3.x-38BDF8)
 ![DaisyUI](https://img.shields.io/badge/DaisyUI-UI%20Library-5A0EF8)
-![Status](https://img.shields.io/badge/Status-Completed-success)
-![License](https://img.shields.io/badge/License-MIT-green)
+
 
 # 📌 Future Improvements
 
