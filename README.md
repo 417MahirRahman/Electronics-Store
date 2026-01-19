@@ -51,18 +51,27 @@ Built with Tailwind CSS and DaisyUI to deliver a clean, responsive, and consiste
 
 # 📌 Future Improvements
 
-1.Replace local JSON data with a backend API  
-2.Integrate a database for persistent product storage  
-3.Add real authentication using NextAuth  
-4.Improve form validation and error handling  
+1.Replace local JSON data with a backend API
+
+2.Integrate a database for persistent product storage
+
+3.Add real authentication using NextAuth
+
+4.Improve form validation and error handling
+  
 
 # ⚙️ Setup & Installation
 
-# 1.Clone the Repository
+## 1.Clone the Repository
+```bash
 git clone https://github.com/417MahirRahman/Electronics-Store.git
 
-# 2.Install Dependencies
+## 2.Install Dependencies
+```bash
 npm install
+```
 
-# 3.Run the Development Server
+## 3.Run the Development Server
+```bash
 npm run dev
+```
