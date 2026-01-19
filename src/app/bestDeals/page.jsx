@@ -1,6 +1,5 @@
 import Image from "next/image";
 import { ShoppingCart, Star, Tag } from "lucide-react";
-import Link from "next/link";
 
 export default function Best_Deals() {
   const deals = [
