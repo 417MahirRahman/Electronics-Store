@@ -10,7 +10,7 @@ export default function LoginForm() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    if (email === "admin@example.com" && password === "123456") {
+    if (email === "admin123@gmail.com" && password === "123456") {
       document.cookie = "auth=true; path=/";
       router.push("/");
     }
