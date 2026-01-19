@@ -58,13 +58,14 @@ Built with Tailwind CSS and DaisyUI to deliver a clean, responsive, and consiste
 3.Add real authentication using NextAuth
 
 4.Improve form validation and error handling
-  
+
 
 # ⚙️ Setup & Installation
 
 ## 1.Clone the Repository
 ```bash
 git clone https://github.com/417MahirRahman/Electronics-Store.git
+```
 
 ## 2.Install Dependencies
 ```bash
