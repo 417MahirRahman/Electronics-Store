@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 async function getProducts() {
-  const res = await fetch("http://localhost:3000/products.json", {
+  const res = await fetch("https://electronics-store-six.vercel.app/products.json", {
     cache: "no-store",
   });
 
